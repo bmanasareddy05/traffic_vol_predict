@@ -38,4 +38,20 @@ The project evaluates models using 5-fold cross-validation. The results are stor
 __Best Model__:Gradient Boosting Regressor with an R² score of 0.89.
 
 ## How to run the project
-Y
+Open `traffic_volume.ipynb` then click on open in colab.Then run it.
+
+## Dependencies
+* numpy
+* pandas
+* scikit-learn
+* matplotlib
+
+## Further improvement
+* Incorporate additional features such as traffic accidents or events.
+* Optimize hyperparameters using grid search.
+* Experiment with neural networks for improved accuracy.
+
+## Conclusion
+### Conclusion
+
+This project successfully demonstrates the prediction of traffic volume using machine learning models like Linear Regression, Random Forest, and Gradient Boosting. By evaluating these models through 5-fold cross-validation, we identified the best-performing model based on R² scores. The project provides a clear workflow, from data preprocessing to model evaluation, ensuring reproducibility. The use of libraries like `scikit-learn` and `pandas` emphasizes the efficiency and scalability of the approach. The included dataset, and code ensure that users can easily replicate and build upon this work.
