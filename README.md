@@ -33,4 +33,9 @@ The project includes following visualizations:
 * Random Forest Regressor: A robust ensemble method
 * Gradient Boosting Regressor: A model focused on reducing errors iteratively
 
-## Results 
+## Results and Best model
+The project evaluates models using 5-fold cross-validation. The results are stored in __fold_accuracies.csv__.The best model is saved using the pickle library for easy reproducibility.
+__Best Model__:Gradient Boosting Regressor with an R² score of 0.89.
+
+## How to run the project
+Y
